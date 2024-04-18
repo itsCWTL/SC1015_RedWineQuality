@@ -8,7 +8,7 @@ Members:
 
 
 # Dataset
-Red wine quality
+[Red wine quality](docs/winequality-red.csv)
 
 # Table of contents:
 1. Problem Statement
