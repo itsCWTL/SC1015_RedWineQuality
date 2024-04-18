@@ -8,7 +8,7 @@ Members:
 
 
 # Dataset
-Red wine quality<br>
+Red wine quality
 
 # Table of contents:
 1. Problem Statement
