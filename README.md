@@ -7,9 +7,10 @@ Members:
 2. Eileen Lim Jing Wen
 
 
-# Dataset
-[Red wine quality](winequality-red.csv)
-
+# About
+Dataset: [Red wine quality](winequality-red.csv)<br>
+Source code: [Red_Wine_Quality_Project]<br>
+<br>
 # Table of contents:
 1. Problem Statement
 2. Data Preparation and Cleaning
