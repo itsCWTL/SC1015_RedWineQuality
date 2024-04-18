@@ -54,40 +54,46 @@ PC 4: chloride and sulphates, which indicate the chloride and sulphates content 
 PC 5: residual sugar, which represents the residual sugar content within the wine.<br>
 <br>
 **2. Classification** <br>
-**Step 1: Finding the best classification model**<br>
-**i.Decision tree**<br>
-Accuracy: 0.87<br>
-Precision(Good): 0.51<br>
-f1-score(Good): 0.54<br>
-FPR: 0.086<br>
+&emsp;**Step 1: Finding the best classification model**<br>
+&emsp;&emsp;**i.Decision tree**<br>
+&emsp;&emsp;Accuracy: 0.87<br>
+&emsp;&emsp;Precision(Good): 0.51<br>
+&emsp;&emsp;f1-score(Good): 0.54<br>
+&emsp;&emsp;FPR: 0.086<br>
 <br>
-**ii. Random forest**<br>
-Accuracy: 0.915<br>
-Precision(Good): 0.83<br>
-f1-score(Good): 0.59<br>
-FPR: 0.014<br>
+&emsp;&emsp;**ii. Random forest**<br>
+&emsp;&emsp;Accuracy: 0.915<br>
+&emsp;&emsp;Precision(Good): 0.83<br>
+&emsp;&emsp;f1-score(Good): 0.59<br>
+&emsp;&emsp;FPR: 0.014<br>
 <br>
-**iii. XGBoost**<br>
-Accuracy: 0.9075<br>
-Precision(Good): 0.71<br>
-f1-score(Good): 0.59<br>
-FPR: 0.032<br>
+&emsp;&emsp;**iii. XGBoost**<br>
+&emsp;&emsp;Accuracy: 0.9075<br>
+&emsp;&emsp;Precision(Good): 0.71<br>
+&emsp;&emsp;f1-score(Good): 0.59<br>
+&emsp;&emsp;FPR: 0.032<br>
 <br>
-We selected the **Random Forest** model due to its superior performance among the three classification models, with an accuracy of 0.915. The precision for predicting good quality wine is 0.83, and the f1 score is 0.59. Additionally, the Random Forest model achieved the lowest false positive rate of 0.014. This indicates that the model is effective in minimizing the risk of incorrectly classifying bad quality wine as good quality and subsequently selling it to customers.<br>
+&emsp;&emsp;We selected the **Random Forest** model due to its superior performance among the three classification models, with an accuracy of 0.915. 
+&emsp;&emsp;The precision for predicting good quality wine is 0.83, and the f1 score is 0.59. Additionally, the Random Forest model achieved the lowest 
+&emsp;&emsp;false positive rate of 0.014. This indicates that the model is effective in minimizing the risk of incorrectly classifying bad quality wine as
+good quality and subsequently selling it to customers.<br>
 <br>
-**Step 2: Tuning**<br>
-**i. Grid Search**<br>
-Given the imbalance in the data, where the bad quality is significantly more prevalent than the good quality, there is a risk of overfitting. To mitigate this, we further improved the selected random forest model by utilizing Grid Search to optimize hyperparameters such as 'n_estimators' and 'max_depth'.<br>
+&emsp;**Step 2: Tuning**<br>
+&emsp;&emsp;**i. Grid Search**<br>
+&emsp;&emsp;Given the imbalance in the data, where the bad quality is significantly more prevalent than the good quality, there is a risk of overfitting. To \
+&emsp;&emsp;mitigate this, we further improved the selected random forest model by utilizing Grid Search to optimize hyperparameters such as 
+&emsp;&emsp;'n_estimators' and 'max_depth'.<br>
 <br>
-After hyperparameter tuning for 'n_estimators' and 'max_depth':<br>
+&emsp;&emsp;After hyperparameter tuning for 'n_estimators' and 'max_depth':<br>
 <br>
-Accuracy: 0.92<br>
-Precision (Good): 0.89<br>
-f1-score (Good): 0.60<br>
-False Positive Rate (FPR): 0.009<br>
+&emsp;&emsp;Accuracy: 0.92<br>
+&emsp;&emsp;Precision (Good): 0.89<br>
+&emsp;&emsp;f1-score (Good): 0.60<br>
+&emsp;&emsp;False Positive Rate (FPR): 0.009<br>
 <br>
-This indicates that after tuning, the Random Forest model can enhance both its accuracy and generalization performance, making it more robust to potential data drift.<br>
-
+&emsp;&emsp;This indicates that after tuning, the Random Forest model can enhance both its accuracy and generalization performance, making it more 
+&emsp;&emsp;robust to potential data drift.<br>
+<br>
 
 **3. Feature importance**<br>
 Top 5 important features in wine quality are:<br>
