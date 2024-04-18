@@ -73,10 +73,10 @@ PC 5: residual sugar, which represents the residual sugar content within the win
 &emsp;&emsp;f1-score(Good): 0.59<br>
 &emsp;&emsp;FPR: 0.032<br>
 <br>
-&emsp;&emsp;We selected the **Random Forest** model due to its superior performance among the three classification models, with an accuracy of 0.915. 
-&emsp;&emsp;The precision for predicting good quality wine is 0.83, and the f1 score is 0.59. Additionally, the Random Forest model achieved the lowest 
-&emsp;&emsp;false positive rate of 0.014. This indicates that the model is effective in minimizing the risk of incorrectly classifying bad quality wine as
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;good quality and subsequently selling it to customers.<br>
+We selected the **Random Forest** model due to its superior performance among the three classification models, with an accuracy of 0.915. 
+The precision for predicting good quality wine is 0.83, and the f1 score is 0.59. Additionally, the Random Forest model achieved the lowest 
+false positive rate of 0.014. This indicates that the model is effective in minimizing the risk of incorrectly classifying bad quality wine as
+good quality and subsequently selling it to customers.<br>
 <br>
 &emsp;**Step 2: Tuning**<br>
 &emsp;&emsp;**i. Grid Search**<br>
