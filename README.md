@@ -81,7 +81,7 @@ good quality and subsequently selling it to customers.<br>
 <br>
 **Step 2: Tuning**<br>
 **i. Grid Search**<br>
-Given the imbalance in the data, where the bad quality is significantly more prevalent than the good quality, there is a risk of overfitting. To \
+Given the imbalance in the data, where the bad quality is significantly more prevalent than the good quality, there is a risk of overfitting. To
 mitigate this, we further improved the selected random forest model by utilizing Grid Search to optimize hyperparameters such as 
 'n_estimators' and 'max_depth'.<br>
 <br>
