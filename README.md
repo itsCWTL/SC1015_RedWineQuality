@@ -29,6 +29,9 @@ The returned results for each variables are 0, which shows that no empty cells w
 **2. Reclassifying quality:**<br>
 Any value in ‘quality’ that contains a value of less then 7 is considered “bad” and any value that is more than or equal to 7 is considered “good”.<br>
 <br>
+**3. Checking duplicates:**<br>
+It is possible that some wines have identical values for each variable, making them unique despite the similarity. By removing them, there is a risk of altering the data composition significantly. Hence, we chose not to remove them. <br>
+<br>
 # 3. Exploratory Data Analysis/Visualization
 **1. Boxplot, Histogram, Violinplot** showing the distribution of data for each variable:<br>
 We observed that the data contains a significant number of widely spread outliers. These outliers should be kept as part of the dataset, as these are natural variations in the population that are known as true outliers and could potentially represent a deeper cause that is relevant to the analysis. <br>
