@@ -93,7 +93,7 @@ After hyperparameter tuning for 'n_estimators' and 'max_depth':<br>
 Accuracy: 0.92<br>
 Precision (Good): 0.89<br>
 f1-score (Good): 0.60<br>
-False Positive Rate (FPR): 0.009<br>
+FPR: 0.009<br>
 <br>
 This indicates that after tuning, the Random Forest model can enhance both its accuracy and generalization performance, making it more 
 robust to potential data drift.<br>
