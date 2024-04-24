@@ -9,7 +9,7 @@ Members:
 
 # About
 Dataset: [Red wine quality](winequality-red.csv)<br>
-Source code: [Red_Wine_Quality_Project]<br>
+Jupyter: [Red_Wine_Quality_Project]<br>
 Slides: [Red wine quality](FCS1_Team5.pdf)<br>
 <br>
 *For a  more detailed explanation, please visit the source code*
