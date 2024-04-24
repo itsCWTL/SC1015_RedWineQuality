@@ -3,8 +3,8 @@ Lab: FCS1<br>
 Group: 5<br>
 
 Members:
-1. Christine Wong Tien Lee
-2. Eileen Lim Jing Wen
+1. Christine Wong Tien Lee (Code, Github)
+2. Eileen Lim Jing Wen (SLides, Video)
 
 
 # About
