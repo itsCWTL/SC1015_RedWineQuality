@@ -11,6 +11,7 @@ Members:
 Dataset: [Red wine quality](winequality-red.csv)<br>
 Source code: [Red_Wine_Quality_Project]<br>
 Slides: [Red wine quality]<br>
+*for more details, please visit the source code*
 <br>
 # Table of contents:
 1. Problem Statement
